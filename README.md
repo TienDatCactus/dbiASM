@@ -8,7 +8,7 @@ I)	INTRODUCE THE PROBLEM………………………………………………�
 2)	MANAGEMENT OBJECTIVES…………………………………………………………………………………………………..
 
 II)	ENTITY – RELATIONSHIP – ER…………………………………………………………………………………………
-1)	DIFINITION ENTITY – ATTRIBUTE…………………………………………………………………………………………..
+1)	DEFINITION ENTITY – ATTRIBUTE…………………………………………………………………………………………..
 2)	SET-UP ENTITY – RELATIONSHIP…………………………………………………………………………………………….
 
 III)	DATA DICTIONARY………………………………………………………………………………………………………….
@@ -38,24 +38,24 @@ evaluate the student’s effort and performance during the process. And consider
 •	Penalty: Talking about the results, for the students who performed effortlessly in the past semester, or in any other situation that they cannot pass the final exam and achieve the desired MINIMUM results, they will then have to face a thing called course retake fee. These will even based on when and how soon you started to retake those courses. Other than that, students who cheat or vandalize, etc... that interfere with the Uni’s rules, will also have to face fees or even disqualification.
 
 	 Main Goal:
-This database aims to help monitor students' learning progress, manage academic-related data. It intends to streamline the management of students' personal information, majors, courses, assessments, results, and penalties to ensure efficient data management within the educational institution.
+This database aims to help monitor students' learning progress and manage academic-related data. It intends to streamline the management of students' personal information, majors, courses, assessments, results, and penalties to ensure efficient data management within the educational institution.
 
 ________________________________________
 II)	ENTITY – RELATIONSHIP – ER
-1)	DIFINITION ENTITY – ATTRIBUTE
+1)	DEFINITION ENTITY – ATTRIBUTE
 Given the problem description and management goals, we can outline various entities and their associated attributes as follows: 	
 -	Student: Store a student’s information
 StudentID,  First Name, Last Name, MajorID, Sex, DateOfBirth, Address, EnrollYear, Email, Scholarship.
-o	EnrollYear: The year which that student enrolls to the school.
-o	Schoolarship: The scholarship of a student, from 0 means no scholarship, to 1 means full scholarship.
+o	EnrollYear: The year in which that student enrolls at the school.
+o	Scholarship: The scholarship of a student, from 0 means no scholarship, to 1 means full scholarship.
 -	Study : Store information about courses the students study 
 StudentID, CourseId, Semester , AverageScore
 o	AverageScore: The average score of a course of a student study in a semester.
--	Major : Store information about the majors the school has
-MajorID , Name.
--	Penalty: Store information about penalty of students
+-	Major: Store information about the majors the school has
+MajorID, Name.
+-	Penalty: Store information about the penalty of students
 StudentID, PenaltyName, Fee, Date, Details
-o	Date: The date which the penalty occurred.
+o	Date: The date on which the penalty occurred.
 o	Details: The reason for the penalty.
 -	Course: Store information about the courses the school provides
 CourseID, CourseName, NumberOfAssessments.
@@ -66,15 +66,15 @@ o	PassingScore: The minimum score for passing this particular assessment. Studen
 o	Weight: The weight of this assessment to the overall score of a course (eg: Weight=0.4 means the assessment take 40% of the overall score)
 -	Result: Store the results of each assessment
 StudentID, CourseID, AssessmentID, Semester, Score
--	Prerequisite : Store information about courses that have prerequisite courses that need to be passed before studying
+-	Prerequisite: Store information about courses that have prerequisite courses that need to be passed before studying
 CourseID, PrerequisiteID.
 
 2)	SET-UP ERD
 
-•	Key / identifier attribute
+•	Key/identifier attribute
 	
 
-•	Attribute description / description
+•	Attribute description/description
 	
 •	Entity
 	
