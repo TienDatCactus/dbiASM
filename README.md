@@ -26,8 +26,8 @@
 
 <p>FPT Universities are experiencing rapid growth in the number of students and require an efficient data management system to keep track of individual student information. Currently, student information is stored in various files, books, and unrelated systems, leading to complexity in information retrieval, semester tracking, and report generation.</p>
 	
-<p1>With the advancement of technology, the school wants to build an automated and integrated student management database to help them monitor the learning progress, manage academic-related data, and provide specific information to stakeholders such as parents and regulatory authorities. 
-We, group 7, intend to create one of the basic realist databases to ensure perfection in managing students’ info. After a time of consideration, we’ve decided to give out these results: <p1>
+<p>With the advancement of technology, the school wants to build an automated and integrated student management database to help them monitor the learning progress, manage academic-related data, and provide specific information to stakeholders such as parents and regulatory authorities. 
+We, group 7, intend to create one of the basic realist databases to ensure perfection in managing students’ info. After a time of consideration, we’ve decided to give out these results: <p>
 
 <p><i>•	Students, recruited by FPT, all have their own information,
 which is required as their entrance conditions. Diving deeper into the semester, 
