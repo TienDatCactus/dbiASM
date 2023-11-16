@@ -1,14 +1,14 @@
 
 <h1> <i> A slight description and overall of our Assignment of DatabaseIntro in FPT Uni </i></h1>
 
-```diff
-- <b>TABLE OF CONTENTS</b>
+<h1><i>Table of Contents</i></h1>
 
-+ I)	INTRODUCE THE PROBLEM…………………………………………………………………………………………….
+```diff
+- I)	INTRODUCE THE PROBLEM…………………………………………………………………………………………….
 1)	DESCRIBE THE PROBLEM……………………………………………………………………………………………………….
 2)	MANAGEMENT OBJECTIVES…………………………………………………………………………………………………..
 
-- II)	ENTITY – RELATIONSHIP – ER…………………………………………………………………………………………
++ II)	ENTITY – RELATIONSHIP – ER…………………………………………………………………………………………
 1)	DEFINITION ENTITY – ATTRIBUTE…………………………………………………………………………………………..
 2)	SET-UP ENTITY – RELATIONSHIP…………………………………………………………………………………………….
 
@@ -17,7 +17,6 @@
 1)	SET-UP TRIGGER…………………………………………………………………………………………………………………….
 
 # IV)	QUERY………………………………………………………………………………………………………….
-
 ```
 
 
