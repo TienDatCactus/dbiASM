@@ -138,7 +138,8 @@ CourseID, PrerequisiteID.
  
 
 <h2>III)	DATA DICTIONARY</h2>
-Just for example on some tables (other table are similar, you have to define all the tables in your database). Note: to run the query you have to define the table 1 first then go to the side tables much
+<p>Just for example on some tables (other table are similar, you have to define all the tables in your database).</p>
+<i>Note: to run the query you have to define the table 1 first then go to the side tables much</i>
 <h3>	DEFINITION OF TABLES</h3>
 
 
